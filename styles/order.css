@@ -1,0 +1,58 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 0px;
+
+}
+
+.box {
+    text-align: center;
+    color: #ab4f8b;
+
+}
+
+.box-title {
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+#add-padding {
+    padding-top: 0.2em;
+    margin: 0px;
+}
+
+.sidebar {
+    display: block;
+    position: fixed;
+    right: 0px;
+    top: 40%;
+
+}
+
+.sidebar-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 10px 2px;
+}
+
+.cookie {
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px;
+}
+
+.button {
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+}
